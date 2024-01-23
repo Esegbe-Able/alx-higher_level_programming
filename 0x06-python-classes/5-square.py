@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# 5-square.py by Esegbe Able Katapu 
-"""That defines a square"""
+# 5-square.py
+"""Square"""
 
 
 class Square:
@@ -24,7 +24,7 @@ class Square:
 
     @property
     def size(self):
-        """Retrieves size of square"""
+        """gets size of square"""
 
         return self.__size
 

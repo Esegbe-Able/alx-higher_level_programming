@@ -1,13 +1,16 @@
 #!/usr/bin/python3
-# 1-square.py by Esegbe Able Katapu
-
+"""A module for square with private attribute"""
 
 
 class Square:
+    """Defines a square."""
 
     def __init__(self, size):
-        """Initializing this square class
-        Args: size - represnets the size of the square defined
+        """
+        Initializes a square with a given size.
+
+        Args:
+            size (int): The side length of the square.
         """
 
         self.__size = size
