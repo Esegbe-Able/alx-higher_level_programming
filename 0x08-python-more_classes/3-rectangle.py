@@ -68,5 +68,4 @@ class Rectangle:
                 rectangle += "\n"
 
         return (rectangle)
-    
-    
+
